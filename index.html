@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var result = prompt("Enter a number:");
+        result = parseFloat(result); 
+        
+        if (result >= 90) {
+            document.write("Distinction");
+        } else if (result >= 80 && result < 90) {
+            document.write("First class");
+        } else if (result >= 70 && result < 80) {
+            document.write("Second class");
+        } else if (result >= 60 && result < 70) {
+            document.write("Pass");
+        } else {
+            document.write("Fail");
+        }
+    </script>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
